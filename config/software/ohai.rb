@@ -16,9 +16,9 @@
 #
 
 name "ohai"
-default_version "master"
+default_version "cisco"
 
-source git: "git://github.com/opscode/ohai"
+source git: "git://github.com/mattray/ohai"
 
 relative_path "ohai"
 
