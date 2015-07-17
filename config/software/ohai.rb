@@ -16,7 +16,7 @@
 #
 
 name "ohai"
-default_version "cisco"
+default_version "wrlinux"
 
 source git: "git://github.com/mattray/ohai"
 
