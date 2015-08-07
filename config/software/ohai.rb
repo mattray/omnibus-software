@@ -16,7 +16,7 @@
 #
 
 name "ohai"
-default_version "cisco-refactor"
+default_version "8.5.0-cisco"
 
 source git: "git://github.com/mattray/ohai"
 
