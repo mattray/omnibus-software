@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 name "chef"
-default_version "12.4.1"
+default_version "master"
 
-source git: "git://github.com/chef/chef"
+source git: "git://github.com/mattray/chef"
 
 relative_path "chef"
 
