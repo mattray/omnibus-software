@@ -16,7 +16,7 @@
 #
 
 name "ohai"
-default_version "8.5.1.cisco"
+default_version "8.5.1.cisco.wrl7"
 
 source git: "git://github.com/mattray/ohai"
 
