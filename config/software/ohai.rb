@@ -35,9 +35,9 @@ dependency "bundler"
 build do
   env = with_standard_compiler_flags(with_embedded_path)
 
-  bundle "install --without development", env: env
+  bundle "install --verbose --without development", env: env
 
-  gem "build ohai.gemspec", env: env
+  gem "build ohai.gemspec -V", env: env
   gem "install ohai*.gem" \
-      " --no-ri --no-rdoc", env: env
+      " --no-ri --no-rdoc -V", env: env
 end
