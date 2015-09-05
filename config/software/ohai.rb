@@ -18,7 +18,7 @@
 name "ohai"
 default_version "master"
 
-source git: "git://github.com/opscode/ohai"
+source git: "git://github.com/chef/ohai"
 
 relative_path "ohai"
 
