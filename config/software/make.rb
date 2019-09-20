@@ -30,6 +30,10 @@ relative_path "make-#{version}"
 build do
   env = with_standard_compiler_flags(with_embedded_path)
 
+  if debian_after_or_at_buster? || ubuntu_after_or_at_bionic? || raspbian?
+    patch source: "deb-make-glob.patch", plevel: 1, env: env
+  end
+
   command "./configure" \
           " --disable-nls" \
           " --prefix=#{install_dir}/embedded", env: env
